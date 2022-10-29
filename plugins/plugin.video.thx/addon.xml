@@ -10,7 +10,7 @@
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
         <import addon="script.module.simplejson" />
-		<import addon="plugin.video.youtube" optional="true" />
+	<import addon="plugin.video.youtube" optional="true" />
     </requires>
     <extension library="thx.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
