@@ -225,7 +225,7 @@
 		</assets>
   </extension>
 </addon>
-<addon id="plugin.video.Zuul" name="[COLORred]ZuuL[/COLOR]" version="1.1.2" provider-name="">
+<addon id="plugin.video.Zuul" name="[COLORred]ZuuL[/COLOR]" version="1.1.4" provider-name="">
   <requires>
 		<import addon="script.module.resolveurl" />
 		<import addon="plugin.video.youtube" />
