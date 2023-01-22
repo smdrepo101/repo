@@ -250,7 +250,7 @@
   </extension>
   
 </addon>
-<addon id="plugin.video.samm_tv" name="Samsung FTA" version="1.0" provider-name="">
+<addon id="plugin.video.samm_tv" name="Samsung TV" version="1.2" provider-name="">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -264,7 +264,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Free To Air Samsung TV</summary>
+    <summary lang="en_GB">Samsung Channels</summary>
     <platform>all</platform>
     <language>en</language>
     <license>GPL-2.0-or-later</license>
@@ -274,4 +274,3 @@
   </assets>
   </extension>
 </addon>
-</addons>
