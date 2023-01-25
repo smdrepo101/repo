@@ -274,10 +274,9 @@
   </assets>
   </extension>
 </addon>
-<addon id="plugin.video.valyria" name="[COLORwhite]Valyria[/COLOR]" version="23.01.23" provider-name="">
+<addon id="plugin.video.valyria" name="[COLORwhite]Valyria[/COLOR]" version="23.01.25" provider-name="">
   <requires>
-		<import addon="script.module.resolveurl" />
-		<import addon="plugin.video.youtube" />
+	
   </requires>
   <extension point="xbmc.python.pluginsource"
             library="default.py">
@@ -288,7 +287,7 @@
   <extension library="resources/" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
 	<reuselanguageinvoker>true</reuselanguageinvoker>
-    <summary lang="en"></summary>
+    <summary lang="en">Debrid And Free-Matrix And Nexus</summary>
     <description lang="en"></description>
 	
     <platform>all</platform>
