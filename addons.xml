@@ -274,29 +274,31 @@
   </assets>
   </extension>
 </addon>
-<addon id="plugin.video.valyria" name="[COLORwhite]Valyria[/COLOR]" version="23.01.26" provider-name="">
+<addon id="plugin.video.valyria" name="[COLORwhite]Valyria[/COLOR]" version="23.01.27" provider-name="">
   <requires>
-		<import addon="script.module.resolveurl" />
-		<import addon="plugin.video.youtube" />
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.routing"/>
+    <import addon="script.module.unidecode" />
+    <import addon="script.module.inputstreamhelper" />
+    <import addon="script.module.resolveurl"/>
+    <import addon="script.module.microjenscrapers" />
+	<import addon="plugin.video.youtube" />
+	<import addon="plugin.video.dailymotion_com" />
+    <!--<import addon="name" />-->
   </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
   </extension>
-  <extension library="resources/modules/" point="xbmc.python.module" />
-  <extension library="resources/sources/" point="xbmc.python.module" />
-  <extension library="resources/" point="xbmc.python.module" />
   <extension point="xbmc.addon.metadata">
-	<reuselanguageinvoker>true</reuselanguageinvoker>
     <summary lang="en">Debrid And Free-Matrix And Nexus</summary>
-    <description lang="en"></description>
-	
     <platform>all</platform>
+    <language>en</language>
+    <license>GPL-2.0-or-later</license>
 	<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-    </assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+  </assets>
   </extension>
-  
 </addon>
 </addons>
