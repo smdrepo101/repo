@@ -274,7 +274,7 @@
   </assets>
   </extension>
 </addon>
-<addon id="plugin.video.valyria" name="[COLORwhite]Valyria[/COLOR]" version="23.01.27" provider-name="">
+<addon id="plugin.video.valyria" name="[COLORwhite]Valyria[/COLOR]" version="23.01.28" provider-name="">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
