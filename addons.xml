@@ -78,12 +78,12 @@
         </assets>
     </extension>
 </addon>
-<addon id="repository.smd" name="[COLORred][I]Smd Repo[/I][/COLOR]" version="1.0.1" provider-name="">
+<addon id="repository.smd" name="[COLORlime][I]Smd Repo[/I][/COLOR]" version="1.0.2" provider-name="">
 <extension point="xbmc.addon.repository" name="[COLORyellow]Smd Repo[/COLOR]">
 		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/smdrepo/repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/smdrepo/repo/master/addons.xml.md5</checksum>
-			<datadir zip="false">https://raw.githubusercontent.com/smdrepo/repo/master/plugins/</datadir>
+			<info compressed="false">https://raw.githubusercontent.com/maverick696970/repo1/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/maverick696970/repo1/master/addons.xml.md5</checksum>
+			<datadir zip="false">https://raw.githubusercontent.com/maverick696970/repo1/master/plugins/</datadir>
 		</dir>
 
 		<dir>
