@@ -8,8 +8,8 @@
     <import addon="script.module.inputstreamhelper" />
     <import addon="script.module.resolveurl"/>
     <import addon="script.module.microjenscrapers" />
-	<import addon="plugin.video.youtube" />
-	<import addon="plugin.video.dailymotion_com" />
+    <import addon="plugin.video.youtube" />
+    <import addon="plugin.video.dailymotion_com" />
     <!--<import addon="name" />-->
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
