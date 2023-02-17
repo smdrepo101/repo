@@ -175,7 +175,7 @@
     <news></news>
     </extension>
 </addon>
-<addon id="plugin.video.genx" name="[COLORlime]Gen[COLORred] X[/COLOR]" version="22.12.23a" provider-name="">
+<addon id="plugin.video.genx" name="[COLORwhite]Gen X[/COLOR]" version="23.02.17" provider-name="">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -192,7 +192,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Gen X-K19/20</summary>
+    <summary lang="en">Debrid And Free-Matrix And Nexus</summary>
     <platform>all</platform>
     <language>en</language>
     <license>GPL-2.0-or-later</license>
@@ -265,33 +265,6 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Samsung Channels</summary>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GPL-2.0-or-later</license>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-  </assets>
-  </extension>
-</addon>
-<addon id="plugin.video.valyria" name="[COLORwhite]Valyria[/COLOR]" version="23.01.28" provider-name="">
-  <requires>
-    <import addon="xbmc.python" version="3.0.0" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.routing"/>
-    <import addon="script.module.unidecode" />
-    <import addon="script.module.inputstreamhelper" />
-    <import addon="script.module.resolveurl"/>
-    <import addon="script.module.microjenscrapers" />
-    <import addon="plugin.video.youtube" />
-    <import addon="plugin.video.dailymotion_com" />
-    <!--<import addon="name" />-->
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Debrid And Free-Matrix And Nexus</summary>
     <platform>all</platform>
     <language>en</language>
     <license>GPL-2.0-or-later</license>
