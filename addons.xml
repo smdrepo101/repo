@@ -330,7 +330,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="plugin.video.valyria" name="[COLORwhite]Valyria[/COLOR]" version="23.03.16" provider-name="">
+<addon id="plugin.video.valyria" name="[COLORred]Valyria[/COLOR]" version="23.03.17" provider-name="">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" />
@@ -347,7 +347,7 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Debrid And Free-Matrix And Nexus</summary>
+    <summary lang="en">Free Content-Matrix And Nexus</summary>
     <platform>all</platform>
     <language>en</language>
     <license>GPL-2.0-or-later</license>
